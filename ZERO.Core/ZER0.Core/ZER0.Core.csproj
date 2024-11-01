@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{C7BAAF5D-7489-4396-AD8E-68BE7848F0F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZER0.Core</RootNamespace>
+    <AssemblyName>ZER0.Core</AssemblyName>
+    <TargetFrameworkVersion>v2.1</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETStandard</TargetFrameworkIdentifier>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MagmaMc.MagmaSimpleConfig">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\MagmaMc.MagmaSimpleConfig.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cryptography\Crc32B.cs" />
+    <Compile Include="Cryptography\ZLHash.cs" />
+    <Compile Include="KeyStore.cs" />
+    <Compile Include="Models\KeyContent.cs" />
+    <Compile Include="Models\KeyStatus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShortcutManager.cs" />
+    <Compile Include="ZER0Key.cs" />
+    <Compile Include="_Test\Net472_Test.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

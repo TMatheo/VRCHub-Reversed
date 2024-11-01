@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{05A75D61-4A94-40C6-A6F1-26A631A51B06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VRCHub</RootNamespace>
+    <AssemblyName>VRCHub</AssemblyName>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETCoreApp</TargetFrameworkIdentifier>
+    <FileAlignment>4096</FileAlignment>
+    <ProjectTypeGuids>{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>VRCHub.ico</ApplicationIcon>
+    <StartupObject>VRCHub.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Analytics">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="MagmaMc.JEF">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\MagmaMc.JEF.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\PresentationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Json">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Net.Http.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Loader">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Runtime.Loader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Loader">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Runtime.Loader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\System.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="ZER0.Core">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\ZER0.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ZER0.VRChat.Patch">
+      <HintPath>..\..\..\..\..\..\Desktop\VRCHub\ZER0.VRChat.Patch.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="AppResources.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Costura\AssemblyLoader.cs" />
+    <Compile Include="DataPack.cs" />
+    <Compile Include="DatapackControl.xaml.cs">
+      <DependentUpon>DatapackControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FileCache.cs" />
+    <Compile Include="KERNAL32.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataPackage.cs" />
+    <Compile Include="Models\VRCConfig.cs" />
+    <Compile Include="Models\VRCW.cs" />
+    <Compile Include="OptionalSoftwareManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegKey.cs" />
+    <Compile Include="ServerAPI.cs" />
+    <Compile Include="SplashScreen.xaml.cs">
+      <DependentUpon>SplashScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SplashscreenEditor.cs" />
+    <Compile Include="Version.cs" />
+    <Compile Include="VRCHub_ProcessedByFody.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppResources.resources" />
+    <EmbeddedResource Include="Costura\analytics\dll.compressed" />
+    <EmbeddedResource Include="Costura\costura\dll.compressed" />
+    <EmbeddedResource Include="Costura\costura\pdb.compressed" />
+    <EmbeddedResource Include="Costura\hardcodet\notifyicon\wpf\dll.compressed" />
+    <EmbeddedResource Include="Costura\magmamc\jef\dll.compressed" />
+    <EmbeddedResource Include="Costura\magmamc\magmasimpleconfig\exe.compressed" />
+    <EmbeddedResource Include="Costura\metadata" />
+    <EmbeddedResource Include="Costura\microsoft\extensions\dependencyinjection\abstractions\dll.compressed" />
+    <EmbeddedResource Include="Costura\newtonsoft\json\dll.compressed" />
+    <EmbeddedResource Include="Costura\spectre\console\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\drawing\common\dll.compressed" />
+    <EmbeddedResource Include="Costura\system\drawing\common\pdb.compressed" />
+    <EmbeddedResource Include="Costura\system\private\windows\core\dll.compressed" />
+    <EmbeddedResource Include="Costura\zer0\core\dll.compressed" />
+    <EmbeddedResource Include="Costura\zer0\vrchat\patch\dll.compressed" />
+    <EmbeddedResource Include="Costura\zer0\vrchat\patch\pdb.compressed" />
+    <EmbeddedResource Include="Resources\VRCFX_Example1.png" />
+    <EmbeddedResource Include="Resources\VRCFX_Example2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DatapackControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SplashScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,15 @@
+costura.analytics.dll.compressed|3.8.1.0|Analytics, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null|Analytics.dll|7F020C158987FAB38AD917973BFF7F99A15801D4|41984
+costura.costura.dll.compressed|6.0.0.0|Costura, Version=6.0.0.0, Culture=neutral, PublicKeyToken=9919ef960d84173d|Costura.dll|DF928DF0A638BA12C360180E4DD4368A10E19C1E|5120
+costura.costura.pdb.compressed|||Costura.pdb|87BC942B699CB9F32EDBB7E73307135991585C5F|7960
+costura.hardcodet.notifyicon.wpf.dll.compressed|1.1.0.0|Hardcodet.NotifyIcon.Wpf, Version=1.1.0.0, Culture=neutral, PublicKeyToken=682384a853a08aad|Hardcodet.NotifyIcon.Wpf.dll|D376BDE7322118787F6F08131AB34A17EB711789|103424
+costura.magmamc.jef.dll.compressed|5.0.1.0|MagmaMc.JEF, Version=5.0.1.0, Culture=neutral, PublicKeyToken=null|MagmaMc.JEF.dll|D3CA67F979DDFA810C943A56801BABCBD5D562E3|93184
+costura.microsoft.extensions.dependencyinjection.abstractions.dll.compressed|5.0.0.0|Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60|Microsoft.Extensions.DependencyInjection.Abstractions.dll|8C65EEA5DDFC2F13E7C749E1B9F933D9C391D69F|44416
+costura.newtonsoft.json.dll.compressed|13.0.0.0|Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.dll|E3673D05D46F29E68241D4536BDDF18CDD0A913D|695336
+costura.system.drawing.common.dll.compressed|9.0.0.0|System.Drawing.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Drawing.Common.dll|CA46A87DDF8E03AF4572189E71BACF7F6005FFF9|485024
+costura.system.drawing.common.pdb.compressed|||System.Drawing.Common.pdb|67E0A882982506A503A77863820A85FEADBD1998|278936
+costura.system.private.windows.core.dll.compressed|9.0.0.0|System.Private.Windows.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Private.Windows.Core.dll|7C2F3938DF009BAF19F1884ED6FB8BB7B77971CE|963744
+costura.zer0.core.dll.compressed|3.1.0.0|ZER0.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=null|ZER0.Core.dll|1D69C45284A0135BA7FF63E42D41279B28AF7811|27072
+costura.zer0.vrchat.patch.dll.compressed|1.0.0.0|ZER0.VRChat.Patch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|ZER0.VRChat.Patch.dll|CB8E38CA2E6E3845A052790F237CD940BD983B00|18432
+costura.zer0.vrchat.patch.pdb.compressed|||ZER0.VRChat.Patch.pdb|97E76199F602AA4042068BE44F2C7ACBD650C095|13492
+costura.magmamc.magmasimpleconfig.exe.compressed|||MagmaMc.MagmaSimpleConfig.exe|EF418D858A3A7864056DBC708F4BB5D9BFFA6B58|23040
+costura.spectre.console.dll.compressed|0.0.0.0|Spectre.Console, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|Spectre.Console.dll|0D271B1AE340F64ED084B8A51C75F804EB12E95C|719872
